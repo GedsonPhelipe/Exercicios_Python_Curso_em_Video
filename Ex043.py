@@ -7,7 +7,7 @@
 #– Acima de 40: Obesidade Mórbida 
 
 peso = float(input('Digite o peso em (KG):  '))
-alt = float(input('Digite a altura: '))
+alt = float(input('Digite a altura com ponto, exemplo 1.75): '))
 
 if peso <= 0 or alt <=0:
     print('Os valores informados não podem ser inferiores ou igual a 0.')
