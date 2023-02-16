@@ -6,8 +6,10 @@ cont = 0
 
 for c in range(1, 7):
     termo = int(input('Digite o termo: '))
+
     if termo % 2 == 0:
             soma = soma + termo
+            
             cont = cont + 1
             
 print(f'Você digitou {cont} termos pares e soma dos valores pares digitados é {soma}.')
