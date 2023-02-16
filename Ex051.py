@@ -3,6 +3,7 @@
 
 t1 = int(input('Digite o primeiro termo da PA: '))
 razao = int(input('Digite a razão da PA em questão: '))
+
 formula = t1 + (10-1) * razao
 cont = 0
 
