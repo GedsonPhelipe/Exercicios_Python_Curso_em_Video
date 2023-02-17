@@ -4,12 +4,17 @@
 
 from random import randint
 from time import sleep
+
 print('Vou pensar em um número de 0 à 5, você consegue acerta-lo?')
+
 computador = randint(0,5)
 usuario = int(input('Digite o seu palpite: '))
+
 print('Pensando...')
 sleep(3)
+
 if computador == usuario:
     print('PARABÉNS VOCÊ ACERTOU!')
+    
 else:
     print('VOCÊ ERROU TENTE DE NOVO!')
