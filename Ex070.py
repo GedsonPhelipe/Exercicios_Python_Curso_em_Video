@@ -36,5 +36,5 @@ while resposta == "S":
             break
 
 print(f'O total da compra é de {total:.2f} R$.')
-print(f'{mais_1000} produtos custão mais que 1000.00 R$')
+print(f'{mais_1000} produtos custam mais que 1000.00 R$')
 print(f'o produto mais barato foi {nome_mais_barato}, custando {mais_barato:.2f} R$.')
