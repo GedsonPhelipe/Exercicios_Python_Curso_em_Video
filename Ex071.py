@@ -5,6 +5,7 @@
 
 total = 0
 cedula_atual = 50
+total_cedula = 0
 
 valor = int(input('Digite o valor desejado para o saque: '))
 total = valor
@@ -34,4 +35,3 @@ else:
 
             if total == 0:
                 break
-            
