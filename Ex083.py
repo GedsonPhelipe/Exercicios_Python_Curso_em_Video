@@ -3,6 +3,7 @@
 
 expres = str(input('Digite a expressão desejada: '))
 verif = []
+
 for simb in expres:
     if simb == '(':
         verif.append('(')
@@ -11,6 +12,7 @@ for simb in expres:
             verif.pop()
         else:
             verif.append(')')
+            
 if len(verif) == 0:
     print('Sua expressão está válida.')
 else:
