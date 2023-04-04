@@ -8,11 +8,12 @@ for simb in expres:
     if simb == '(':
         verif.append('(')
     elif simb == ')':
+
         if len(verif) > 0:
             verif.pop()
         else:
             verif.append(')')
-            
+
 if len(verif) == 0:
     print('Sua expressão está válida.')
 else:
